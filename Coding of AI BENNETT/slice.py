@@ -18,3 +18,9 @@ print(data[:3])
 print(data[5:8])
 print(data[::3])
 
+sensor_data= [22.5, "ERROR",23.0, 21.8, "ERROR",24.5]
+
+#check if error exits or not IN inbuiult function
+
+print(sensor_data.remove("ERROR"))
+
